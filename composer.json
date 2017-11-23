@@ -1,0 +1,21 @@
+{
+  "name": "eureka/middleware-controller",
+  "description": "Middleware to manage controller.",
+  "type": "library",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "Romain Cottard",
+      "role": "Developer"
+    }
+
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Eureka\\Middleware\\Controller\\": "./src"
+    }
+  }
+
+}
